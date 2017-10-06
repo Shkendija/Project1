@@ -11,9 +11,9 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: white; }
   a.active, a:active, a:focus, a:hover {
-    color: #fec503; }
+    color: red; }
 
 h1,
 h2,
@@ -34,7 +34,7 @@ section {
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
+    font-style: bold ;
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -63,7 +63,7 @@ body {
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
-    font-size: 12px;
+    font-size:9px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
@@ -73,10 +73,10 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .navbar-brand {
-    color: #fed136;
+    color: # black ;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: white; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -86,7 +86,7 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: black; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -451,11 +451,11 @@ section#contact {
     section#contact .form-group textarea.form-control {
       height: 236px; }
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: red ;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact :-moz-placeholder {
@@ -470,7 +470,8 @@ section#contact {
     /* Firefox 19+ */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
-  section#contact :-ms-input-placeholder {
+  section#contact :-ms-input-placehol
+   {
     font-weight: 700;
     color: #eeeeee;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -506,9 +507,10 @@ ul.social-buttons {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    color: white;
+    color: white
     border-radius: 100%;
     outline: none;
+
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
@@ -553,7 +555,7 @@ ul.social-buttons {
     border-color: #fed136;
     background-color: #fed136; }
   .btn-primary .badge {
-    color: #fed136;
+    color:#e9ecef;
     background-color: white; }
 
 .btn-xl {
@@ -561,31 +563,31 @@ ul.social-buttons {
   font-weight: 700;
   padding: 20px 40px;
   border-radius: 3px;
-  color: white;
-  border-color: #fed136;
-  background-color: #fed136;
+  color: #111;
+  border-color: #e9ecef;
+  background-color: #e9ecef;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
-    color: white;
-    border-color: #b48b01;
-    background-color: #fec503; }
+    color:#111;
+    border-color:#e9ecef ;
+    background-color: #e9ecef; }
   .btn-xl:hover {
-    color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
+    color: #fff;
+    border-color:#e9ecef;
+    background-color: #e9ecef; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
-    color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
+    color: #fff;
+    border-color: #e9ecef;
+    background-color: #e9ecef; }
     .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
     .open > .btn-xl.dropdown-toggle.focus,
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
-      color: white;
-      border-color: #b48b01;
-      background-color: #dcab01; }
+      color: #fff;
+      border-color: #e9ecef;
+      background-color: #e9ecef; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     background-image: none; }
@@ -593,8 +595,8 @@ ul.social-buttons {
   fieldset[disabled] .btn-xl.focus,
   fieldset[disabled] .btn-xl:focus,
   fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136; }
+    border-color: #495057;
+    background-color: #495057; }
   .btn-xl .badge {
-    color: #fed136;
+    color: black ;
     background-color: white; }
