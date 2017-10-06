@@ -55,11 +55,18 @@ img::selection {
   background: transparent; }
 
 img::-moz-selection {
+  
   background: transparent; }
 
 body {
   -webkit-tap-highlight-color: #fed136; }
 
+div.h6titulli{
+  text-align: left;
+}
+div.h6shkarko{
+  text-align: left;
+}
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
@@ -115,7 +122,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/komuna.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -434,6 +441,7 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
+.partoflegjislacion 
 section#contact {
   background-color: #222222;
   background-image: url("../img/map-image.png");
